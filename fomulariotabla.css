@@ -1,0 +1,37 @@
+#tabla{
+    border: 1px solid blue;
+    text-align: center;
+    font-style: italic;
+    border-radius: 2%;
+    background-color: burlywood;
+    
+    
+}
+div{
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 0.5cm;
+
+}
+.titu{
+    border: 2px dotted orange;
+    background-color: yellow;
+
+
+
+}
+fieldset{
+    background-color: lightblue;
+    border: 3px dotted green;
+
+}
+#tablaa{
+    margin-left: 20%;
+}
+
+#datosp{
+    font-weight: bold;
+}
+
+input[name~=boton]{
+    font-weight: bold;
+}
