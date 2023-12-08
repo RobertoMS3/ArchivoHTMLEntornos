@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <h1>PRÁCTICA EXAMEN</h1>
+    <form action="">
+        <fieldset id="datosp">
+        <legend class="titu" >Primera parte</legend>
+            <div>
+            <label for="">Nombre:</label>
+            <input type="text">
+            </div>
+            
+            <div>
+            <label for="">Contraseña:</label>
+            <input type="password" required minlength="5" maxlength="10">
+
+            </div>
+
+            <div>
+                <label for="">Ciudad de nacimiento</label>
+                <input type="text" value="Uwunt "  readonly>
+            </div>
+            <div>
+                <label for="">Fecha de nacimiento</label>
+                <input type="date" name="" id="" value="2023-12-04" min="2023-12-04" required>
+            </div>
+
+        </fieldset>
+        <fieldset>
+            <legend class="titu">Segunda parte</legend>
+            <div>
+                <label for="">Seleccion de asignatura</label>
+                <select name="lista" id="litado" >
+                    <option value="" selected hidden>Seleccionar aquí</option>
+                <optgroup label="Primer curso">
+                    <option value="mates" disabled>Mates</option>
+                    <option value="lengua" >Lengua</option>
+                </optgroup>
+                <optgroup label="Segundo curso">
+                    <option value="fisica">Fisica</option>
+                    <option value="quimica">Quimica</option>
+                </optgroup>
+                </select>
+
+            </div>
+            <div id="tablaa">
+                <table id="tabla" border="1px" cellspacing="0" >
+                    <caption>TABLA COSAS</caption>
+                    <thead>
+                        <tr>
+                            <th>Paquete 1</th>
+                            <th>Paquete 2</th>
+                            <th>Paquete 3</th>
+                            <th>Paquete 4</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>300$</td>
+                            <td>300$</td>
+                            <td colspan="2">300$</td>
+                        </tr>
+                        <tr>
+                            <td>300$</td>
+                            <td rowspan="2">300$</td>
+                            <td>300$</td>
+                            <td>300$</td>
+                        </tr>
+                        <tr>
+                            <td>400$</td>
+                            <td>600$</td>
+                            <td>30$</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend class="titu">Sexo</legend>
+            <div>
+
+                <label for="sexo">Sexo:</label>
+                <input type="radio" value="Paco" name="sexo" >
+                <span>Mujer</span>
+                <input type="radio" value="Juan" name="sexo">
+                <span>Hombre</span>
+            </div>
+        </fieldset>
+
+        <input type="submit" value="ACEPTAR" name="boton">
+        <input type="reset" value="RESETEAR" name="boton">
+
+
+    </form>
+    
+</body>
+</html>
